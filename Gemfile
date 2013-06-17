@@ -2,8 +2,8 @@ source :rubygems
 
 group :integration do
     gem 'berkshelf'
-    gem 'jamie'
-    gem 'jamie-vagrant'
+    gem 'test-kitchen'
+    gem 'kitchen-vagrant'
     gem 'rake'
     gem 'foodcritic'
 end

@@ -1,3 +1,29 @@
-cookbook 'build-essential', :locked_version => '1.3.2'
-cookbook 'runit', :locked_version => '0.16.2'
-cookbook 'yum', :locked_version => '2.0.6'
+{
+  "sha": "1351483a2da92ec99d52cfed00e28a13750ab1b5",
+  "sources": {
+    "build-essential": {
+      "locked_version": "1.3.2"
+    },
+    "runit": {
+      "locked_version": "0.16.2"
+    },
+    "yum": {
+      "locked_version": "2.0.6"
+    },
+    "apt": {
+      "locked_version": "1.9.2"
+    },
+    "redis": {
+      "locked_version": "2.1.1",
+      "path": "."
+    },
+    "stunnel": {
+      "locked_version": "2.0.2",
+      "constraint": ">= 2.0.0"
+    },
+    "discovery": {
+      "locked_version": "0.2.0",
+      "constraint": ">= 0.2.0"
+    }
+  }
+}
